@@ -14,7 +14,7 @@ const TestimonialCard = ({ quote, initial, name, rating, role }) => {
           ))}
         </div>
 
-        <blockquote className="text-base leading-7 text-slate-300 sm:text-lg sm:leading-8">
+        <blockquote className="flex-1 text-base leading-7 text-slate-300 sm:text-lg sm:leading-8">
           {quote}
         </blockquote>
 
